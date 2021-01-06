@@ -8,6 +8,8 @@ h1{
         margin-left: 5%;
         padding-left: 2%;}
 .word-color{color: tomato;}
+p{text-align: justify;
+font-weight: 500;}
 .link-button{
     color: white;
     cursor:pointer;
@@ -21,13 +23,14 @@ border-radius: 5%;}
     }
     .work-heading{padding-top: 10px;
         text-align: center;
+        margin-left: 5%;
     }
     .work{
         
-        background-color: thistle;
+        background-color: rgb(240, 231, 240);
     }
 section{
-    height: 400px;
+    height: 450px;
     padding-bottom:50px ;
 }
 img{
@@ -37,12 +40,12 @@ img{
     float: left;
     margin: 2%;
     padding-left:2%;
-    border-radius: 5%;
-
+    border-radius: 10px;
 }
+
 img.image{
-    height: 200px;
-    width: 90%;
+    height: 180px;
+    width: 93%;
 }
 .button {
     background-color: rgb(248, 247, 247);
@@ -58,5 +61,107 @@ img.image{
   }
   
   .button:hover {
-    background-color: rgb(243, 181, 181);
+    background-color: rgb(245, 192, 192);
   }
+  .top-button{
+      text-align: right;
+      margin-right: 5%;
+  }
+  .skill-bar{width: 90%;
+    background-color:darkgrey;
+    
+border-radius: 5px;}
+    .skills{
+        text-align: right;
+        padding-top: 5px;
+        
+        color: black;
+        font-weight: 700;
+        margin-top: 3px;
+    }
+    .html{width: 75%;
+        height: 5px;
+        border-radius: 5px; 
+        background-color: skyblue;}
+    .css{width: 50%;
+        height: 5px;
+        border-radius: 5px;
+         background-color:darkmagenta;}
+    .js{width: 25%;
+        height: 5px;
+        border-radius: 5px;
+         background-color: rgb(52, 63, 163);}
+#language-skill{
+    
+    padding-left: 5%;
+    color: rgb(49, 2, 2);
+    height: 350px;
+}
+.skill-name{
+    
+    font-weight: 700;
+    color: rgb(1, 1, 61);
+}
+.connection{
+    height: 150px;
+    margin: 5% 30%;
+    background-image: url(shapes/Group_33094_1.png);
+    background-repeat: no-repeat;
+    text-align: left;
+    padding-left: 3%;
+    padding-top: 2.7%;
+    padding-right: 7%;
+}
+#chat-button{padding-top: 2.7%;
+    padding-right: 7%;
+margin-left: 200px;}
+.chat:link{
+    background-color: rgb(250, 152, 114);
+    background-image: linear-gradient(lightsalmon,tomato);
+    font-weight: 800;
+    padding: 10px 15px;
+    
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  .chat:hover{
+    background-color: rgb(0, 174, 255);
+  }
+  .chat{color: white;
+}
+#text{color: white;
+font-weight: 700;}
+.contact{
+    text-align: center;
+    padding-top: 5px;
+    font-weight: 700;
+    color: rgb(18, 11, 63);
+}
+.email{text-decoration: none;
+color: rgb(4, 97, 97);}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-instagram {
+    background: #ff9317;
+    background-image: linear-gradient(45deg, rgb(248, 73, 3), red);
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa{
+    padding: 10px;
+    font-size: 1000px;
+    width: 20px;
+    height: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px 2px;}
+    footer p{text-align: center;
+    font-size: 12px;
+font-weight: 600;}
