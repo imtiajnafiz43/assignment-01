@@ -9,6 +9,7 @@ h1{
         padding-left: 2%;}
 .word-color{color: tomato;}
 p{text-align: justify;
+    margin-right: 5px;
 font-weight: 500;}
 .link-button{
     color: white;
@@ -41,6 +42,7 @@ img{
     margin: 2%;
     padding-left:2%;
     border-radius: 10px;
+    box-shadow: 2px 5px 5px gray;
 }
 
 img.image{
@@ -112,14 +114,14 @@ border-radius: 5px;}
     padding-top: 2.7%;
     padding-right: 7%;
 }
-#chat-button{padding-top: 2.7%;
-    padding-right: 7%;
+#chat-button{padding-top: 2%;
+    padding-right: 4%;
 margin-left: 200px;}
 .chat:link{
     background-color: rgb(250, 152, 114);
     background-image: linear-gradient(lightsalmon,tomato);
     font-weight: 800;
-    padding: 10px 15px;
+    padding: 5px 15px 20px 15px;
     
     text-decoration: none;
     display: inline-block;
@@ -129,6 +131,7 @@ margin-left: 200px;}
     background-color: rgb(0, 174, 255);
   }
   .chat{color: white;
+    height: 15px;
 }
 #text{color: white;
 font-weight: 700;}
